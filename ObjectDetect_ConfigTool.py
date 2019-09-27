@@ -8,7 +8,7 @@ def nothing():
     pass
 
 #Capture video from the stream
-cap = cv2.VideoCapture(0)
+#cap = cv2.VideoCapture(0)
 cv2.namedWindow('Colorbars') #Create a window named 'Colorbars'
 
 #assign strings for ease of coding
@@ -31,7 +31,7 @@ cv2.createTrackbar(vh, wnd,0,255,nothing)
 #begin our 'infinite' while loop
 while(1):
     #read the streamed frames (we previously named this cap)
-    frame = cv2.imread('detected/_tmp/00000001.jpg')
+    frame = cv2.imread('_tmp/00000408.jpg')
     
     #if (frame == None ):
         #print( "Image Not Found")
